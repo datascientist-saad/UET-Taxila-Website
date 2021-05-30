@@ -1,0 +1,1114 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.nav {
+	width: 100%;
+}
+
+.menu {
+	line-height: 45px;
+}
+
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav .menu .menu_item {
+	display: inline-block;
+	position: relative;	
+	font-size: 16px;
+}
+
+.nav .menu .menu_item a {
+	padding: 10px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+.nav .menu .menu_item a:hover {
+	background-color: #001933;
+	border-left: 2px solid #ce8d02cc;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	width: 300px;
+	z-index: 1;
+}
+
+.menu_item:hover .submenu{
+	display: block;
+	background-color: #000;
+	color: #fff;
+}
+
+.submenu_item {
+	border-left: 2px solid transparent;
+}
+
+.submenu_item:hover {
+	background-color: #001933;
+	border-left: 4px solid #ce8d02cc;
+}
+
+.header {
+	float: right;
+	padding: 100px 0px;
+}
+
+
+
+
+
+
+
+
+.logo {
+	width:auto;
+	height:100px;
+	position:absolute;
+	left:10px;
+	top:30px;
+	border-radius: 100%;
+}
+
+
+.box{
+	
+	position:absolute;
+	float:right;
+	top:30px;
+	right:60px;
+	width:300px;
+	height:40px;
+	padding:10px;
+	border-radius:30px;
+	color:white;
+	background:#001933;
+	z-index: 0;
+}
+
+.uet{
+	position: absolute;;
+	top:60px;
+	color:white;
+	font-size:20px;
+	right: 930px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* ####################banner############## */
+.banner{
+
+	position:fixed;
+	top:300px;
+	left:150px;
+	width:80%;
+	height:450px;
+
+}
+
+.top
+{
+	padding-bottom:250px;
+	background:#002347;
+}
+/* #################### latest news################*/
+
+
+.news{
+	padding-bottom:10px ;
+	background:#EAEAEA;
+	padding-bottom:1500px
+}
+.heading{
+	position:absolute;
+	top:820px;
+	left:70px;
+	color: #2C4251;
+}
+
+
+
+
+.news-item-china{
+	position:absolute;
+	top:900px;
+	
+	right:890px;
+	
+}
+.news-item-library {
+	position:absolute;
+	right:400px;
+	top:900px;
+
+	
+}
+.news-item-graduates{
+	position:absolute;
+	top:1300px;
+	
+	right:890px;
+	
+}
+.news-item-sport {
+	position:absolute;
+	right:400px;
+	top:1300px;
+
+	
+}
+.linkstyle h2:hover{
+	cursor:pointer;
+}
+.
+/* ####################### NEWS TEXT ###################*/
+.news p{
+	color:#2C4251;
+	font-family:roboto;
+	font-size:20px;
+}
+
+/* ####################### images hover ################## */
+
+.wrapper{
+		font-style: sans-serif;
+		
+}
+.content{
+	position :absolute;
+	top:45%;
+	left:35%;
+	color:#fff;
+	font-size: 25px;
+	
+	
+}
+.overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width:100%;
+	height:75%;
+	opacity:0;
+	transition:.5s ease;
+	background: rgba(0,0,0,0.9);
+	border: solid #F7EBE8 10px;
+	
+}
+.wrapper:hover .overlay {
+	opacity:0.6;
+	cursor:pointer;
+}
+
+
+
+/*########################### image sizer #######################*/
+
+
+.china{
+	width:400px;
+	height:250px;
+}
+
+
+.library{
+	width:400px;
+	height:250px;
+}
+.graduates{
+	width:400px;
+	height:250px;
+}
+
+.sport{
+	width:400px;
+	height:250px;
+}
+
+/* ################################## Quick Links ########################################### */
+
+.quick {
+	
+	color:black;
+	font-size:20px;
+	position:absolute;
+	top:820px;
+	right:10px;
+	background-color:#DBDBDB;
+	padding-right:70px;
+	padding:50px;
+	
+	
+	
+}
+
+.quick a{
+	text-decoration:none;
+	color:#46696D;
+
+	
+	
+	
+	
+}
+/* ##########################################facilities#############################################*/
+
+.facilities{
+	position:absolute;
+	top:1800px;
+	background-color:#002347;
+	padding-right:100%;
+	padding-bottom:100%;
+
+}
+.facilities h1{
+	position:absolute;
+	left:35%;
+	top:90px;
+	font-size:40px;
+	color:white;
+	
+	
+}
+
+.library1{
+	position:absolute;
+	left:180px;
+	top:190px;
+	text-align:center;
+	color:white;
+	padding:30px;
+}
+
+.hostel{
+	position:absolute;
+	left:340px;
+	top:220px;
+	text-align:center;
+	color:white;
+}
+
+.masjid{
+	position:absolute;
+	left:490px;
+	top:220px;
+	text-align:center;
+	color:white;
+}
+
+
+
+.hospital{
+	position:absolute;
+	left:640px;
+	top:220px;
+	text-align:center;
+	color:white;
+}
+
+
+.cafeteria{
+	position:absolute;
+	left:790px;
+	top:220px;
+	text-align:center;
+	color:white;
+	
+}
+
+
+.transport{
+	position:absolute;
+	left:940px;
+	top:220px;
+	text-align:center;
+	color:white;
+}
+/*############################################HOVER EFFECT #####################################################*/
+
+
+.library1 img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+.hostel img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+
+.masjid img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+.masjid img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+.hospital img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+.cafeteria img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+.transport img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.6;
+	transition:.5s ease;
+}
+
+.affiliated{
+	
+	position:absolute;
+	top:450px;
+	
+	
+}
+.dum h1{
+	text-align:center;
+	top:550px;
+	left:500px;
+	
+}
+.text{
+	font-size:20px;
+	color:white;
+	position:absolute;
+	top:280px;
+	left:-15px;
+	
+}
+.clients{
+	display:inline;
+	position:absolute;
+	top:1000px;
+	left:150px;
+}
+.friend{
+	position:absolute;
+	top:-200px;
+	right:-40px;
+	border-radius:100%;
+	width:30px;
+	height:30px;
+}
+
+.search{
+	position:absolute;
+	width:30px;
+	float:right;
+	right:60px;
+	top:35px;
+	display: inline-block;
+	border-radius: 100%;
+    z-index: 1;
+}
+
+/*##########################################################################################################################
+######################################################### HURRAIRA FORM CSS ################################################
+############################################################################################################################ */
+
+
+.FormUetLogo
+{
+	margin-top:30px;
+	padding:0;
+	position:absolute;
+	top:300px;
+	left:38%;
+	width:auto;
+	height:300px;
+	color:#002347;
+	background-color:#DCE6E8;
+	border-radius:100%;
+}
+.FormHeading1{
+	
+	font-family:Calibri(Body);
+	font-size:34px;
+	margin-top:120px;
+	margin-left:300px;
+	margin-right:250px;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#BAD4FF;
+	
+}
+.FormHeading2{
+	text-align:center;
+	font-family:Arial Black;
+	font-size:40px;
+	margin-top:20px;
+}
+.FormHeading3{
+	text-indent:25px;
+	font-family:Calibri(Body);
+	font-size:30px;
+	padding-left:10px;
+	background-color:#BAD4FF;
+	margin-top:20px;
+}
+
+.FormText1{
+	margin-top:40px;
+	margin-bottom:30px;
+	font-size:25px;
+	font-family:Calibri;
+	text-indent:25px;
+	
+	
+}
+.FormBox{
+	height:30px;
+		
+}
+.FormHR{
+	margin-top:10px;
+}
+.myform{
+	padding-top:250px;
+	background-color:#DCE6E8;
+}
+.FormBox2{
+	height:35px;
+}
+.sud{
+	height:30px;
+	width:100px;
+}
+.poosition{
+	margin-left:60px;
+}
+.Section2Position{
+	
+	margin-left:30px;
+}
+
+
+
+
+/*###################################################################################################################
+################################################ HURRAIRA LOGIN #####################################################
+####################################################################################################################*/
+
+
+
+.loginbox{
+	width:420px;
+	height:500px;
+	top:700px;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	box-sizing:border-box;
+	background:#0E4170;
+	padding:70px 30px;
+	border-radius:80px;
+	
+	
+}
+.LoginLogo{
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	position:absolute;
+	top:-90px;
+	left: 33%;
+}
+.loginHeading{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:30px;
+}
+
+.loginbox p{
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.loginbox input{
+	width:80%;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type="button"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	opacity:0.6;
+	color:#000;
+	font-size:18px;
+	margin-left:35px;
+	border-radius:20px;
+} 
+
+.loginbox input[type="button"]:hover
+{
+	background:#EEEEFF;
+	cursor:pointer;
+	color:#000;
+}
+.loginbox a{
+	text-decoration:none;
+	font-size:12px;
+	color:darkgray;
+}
+.loginbox a:hover{
+	color:#ffc107;
+}
+.loginBackground{
+	page:black;
+}
+.formlolo{
+	background-color:#DCE6E8;
+	
+}
+/*##########################################################################################################################
+######################################################### HURRAIRA TRANSPORTAION CSS ################################################
+############################################################################################################################ */
+
+.quickTransportation
+{
+	color:black;
+	font-size:12px;
+	position:absolute;
+	top:320px;
+	left:20px;
+	background-color:#DBDBDB;
+	padding-right:70px;
+	padding:50px;
+	
+}
+.quickTransportation a{
+	text-decoration:none;
+	color:black;
+}
+.TransportationBox
+{
+	width:700px;
+	height:500px;
+	position:absolute;
+	left:28%;
+	padding:50px;
+	background:#033F63;
+	line-height:26px;
+	top:350px;
+	color:white;
+}
+.transimg1
+{
+	position:absolute;
+	left:300px;
+	top:40%;
+	width:350px;
+	height:200px;
+	border:solid 1px white;
+}
+.quickTransportationText 
+{
+	position:absolute;
+	left:28%;
+	top:320px;
+	color:black;
+}
+.transimg2
+{
+	width:150px;
+	height:50px;
+	position:absolute;
+	top:85%;
+	
+}
+.transimg3
+{
+	position:absolute;
+	left:82%;
+	top:350px;
+	text-align:center;
+	
+}
+.transimg3 img:hover
+{
+	cursor:pointer;
+	margin-bottom:10px;
+}
+.transimg3 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:170px;
+	right:20px;
+	
+}
+.transimg4 img
+{
+	width:150px;
+	height:auto;
+}
+.transimg4
+{
+	position:absolute;
+	left:85%;
+	top:600px;
+	text-align:center;
+	
+}
+.transimg4 img:hover
+{
+	cursor:pointer;
+	
+}
+.transimg4 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:170px;
+	right:20px;
+	
+}
+/*##############################hover links################################################################## */
+.transimg3 a
+{
+	color:#28666E;
+}
+.transimg2 a
+{
+	color:#28666E;
+}
+.TransSECTION1
+{	padding-bottom:600px;
+	background:#F7F7F7;
+	margin-bottom:20px;
+}
+
+.transTimeText
+{
+	font-family:roboto;
+	color:black;
+	position:absolute;
+	left:370px;
+	padding:5px;
+	background-color:#989C94;
+	font-size:14px;
+	
+	
+}
+.TimeHeading
+{
+	padding:10px;
+	background-color:#72756F;
+	margin-left:370px;
+	margin-right:67px;
+}
+/*###############################################image at the right   5#############################################*/
+.transimg5
+{
+	position:absolute;
+	left:100px;
+	top:1000px;
+	text-align:center;
+	
+}
+.transimg5 img
+{
+	border:solid black 1px;
+	padding:2px;
+	background-color:#D3D3D3;
+}
+.transimg5 img:hover
+{
+	cursor:pointer;
+
+}
+.transimg5 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:140px;
+	right:10px;
+	
+}
+/*###############################################image at the right   6 #############################################*/
+.transimg6 img
+{
+	width:150px;
+	height:auto;
+	border:solid black 1px;
+}
+.transimg6
+{
+	position:absolute;
+	left:100px;
+	top:1250px;
+	text-align:center;
+	
+}
+.transimg6 img:hover
+{
+	cursor:pointer;
+	
+}
+.transimg6 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:120px;
+	right:20px;
+	
+}
+.transleft
+{
+	padding-bottom:400px;
+	padding-top:100px;
+	
+	background-color:#E2E2E2;
+	margin-right:1000px;
+	margin-left:20px;
+}
+
+/*###############################################       bottom         #############################################*/
+.transbottom
+{
+	height:1400px;
+	width:1350px;
+	background-color:#002347;
+	margin-top:100px;
+	
+}
+
+.t1 img
+{
+
+	width:350px;
+	height:250px;
+	position:absolute;
+	top:1650px;
+	left:800px;
+	border:solid 1px white;
+	
+}
+
+.t2 img
+{
+	width:350px;
+	height:250px;
+	position:absolute;
+	top:1650px;
+	left:200px;
+	border:solid 1px white;
+	
+}
+.t3 img
+{
+
+	width:350px;
+	height:250px;
+	position:absolute;
+	top:2000px;
+	left:200px;
+	border:solid 1px white;
+	
+}
+.t4 img
+{
+
+	width:350px;
+	height:250px;
+	position:absolute;
+	top:2000px;
+	left:800px;
+	border:solid 1px white;
+	
+}
+
+.lala
+{
+	position:absolute;
+	top:2400px;
+	left:200px;
+	color:white;
+}
+
+.t1  img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.4;
+	transition:.5s ease;
+	cursor:pointer;
+}
+.t2  img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.4;
+	transition:.5s ease;
+	cursor:pointer;
+}
+.t3  img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.4;
+	transition:.5s ease;
+	cursor:pointer;
+	
+}
+.t4  img:hover{
+	background: rgba(0,0,0,0.9);
+	opacity:0.4;
+	transition:.5s ease;
+	cursor:pointer;
+}
+/*###################################################################################################################
+################################################ HURRAIRA ABOUT #####################################################
+####################################################################################################################*/
+
+
+.uet2{
+	position:absolute;
+	left:25px;
+	top:60px;
+	color:black;
+	font-size:20px;
+	
+	
+}
+
+.quickAbout
+{
+	width:450px;
+	color:black;
+	font-size:13px;
+	position:absolute;
+	top:320px;
+	left:50px;
+	background-color:#DBDBDB;
+	padding-right:70px;
+	padding:50px;
+	
+}
+.quickAbout a{
+	text-decoration:none;
+	color:black;
+}
+.aboutimg1
+{
+	position:absolute;
+	left:20px;
+	top:90%;
+	width:1150px;
+	height:400px;
+	border:solid 1px white;
+}
+.aboutBox
+{
+	width:1100px;
+	height:500px;
+	position:absolute;
+	left:25%;
+	padding:50px;
+	background:#14387F;
+	line-height:26px;
+	top:350px;
+	color:white;
+}
+
+
+.aboutimg2 img
+{
+	width:200px;
+	height:auto;
+}
+.aboutimg2
+{
+	position:absolute;
+	left:70px;
+	top:900px;
+	text-align:center;
+	padding:1px;
+	
+	
+}
+.aboutimg2 img:hover
+{
+	cursor:pointer;
+	
+}
+.aboutimg2 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:250px;
+	right:20px;
+	
+}
+.dumhead
+{
+	position:absolute;
+	left:80px;
+}
+
+.aboutBox2
+{
+	width:1100px;
+	height:300px;
+	position:absolute;
+	left:25%;
+	padding:50px;
+	background:#BABAA7;
+	line-height:26px;
+	top:1230px;
+	color:#565654;
+}
+.my img
+{
+	width:200px;
+	height:auto;
+	border-radius:2px;
+}
+.my
+{
+	position:absolute;
+	left:80px;
+	top:1300px;
+	text-align:center;
+	padding:1px;
+	
+	
+	
+}
+.my img:hover
+{
+	cursor:pointer;
+	
+}
+.my a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:230px;
+	right:20px;
+	
+}
+.aboutbottom
+{
+	position:absolute;
+	top:1650px;
+	left:50px;
+	height:500px;
+	width:2000px;
+	padding:10px;
+	background:#565654;
+	
+}
+.aboutbottom pre
+{
+	top:90px;
+	position:absolute;
+	left:50px;
+	font-size:20px;
+	font-family:roboto;
+}
+.aboutbottom h2
+{
+	top:40px;
+	position:absolute;
+	left:50px;
+
+}
+.my2 img
+{
+	width:200px;
+	height:auto;
+	border-radius:10px;
+
+}
+.my2
+{
+	position:absolute;
+	left:900px;
+	top:130px;
+	text-align:center;
+	padding:1px;
+	
+	
+}
+.my2 img:hover
+{
+	cursor:pointer;
+	
+}
+.my2 a
+{
+	
+	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	line-height:1.5;
+	top:150px;
+	right:20px;
+	
+}
+
+
+
+
+

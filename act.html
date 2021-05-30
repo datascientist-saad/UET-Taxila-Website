@@ -1,0 +1,243 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/act.css">
+
+<title> ACTIVITIES </title>
+<!-- font awesome  -->
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<!--google font -->
+
+<!-- main.css -->
+<script>
+		var slideIndex = 1;
+	showSlides(slideIndex);
+	
+	// Next/previous controls
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+	
+	// Thumbnail image controls
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+	
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1} 
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none"; 
+		}
+		for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block"; 
+		dots[slideIndex-1].className += " active";
+	}
+	
+	</script>
+
+</head>
+<body>
+
+
+<header class="top">
+<img src="search.png" class="search">
+<div><input type="text" class="box" placeholder="enter to search"><div>
+
+<div class="header">
+  <nav class="nav">
+	  <ul class="menu">
+		  <li class="menu_item"><a href="index.html">HOME</a></li>
+		  <li class="menu_item"><a href="about.html">ABOUT</a>
+		  <ul class="submenu">
+			  <li class="submenu_item"><a href="#">ABOUT UET TAXILA</a></li>
+			  <li class="submenu_item"><a href="#">VISION MISSION AND CORE VALUES</a></li>
+			  <li class="submenu_item"><a href="#">RULES AND REGULATION</a></li>
+			  <li class="submenu_item"><a href="#">CODE OF CONDUCT</a></li>
+		  </ul>
+		  </li>
+		  <li class="menu_item"><a href="form.html">ADMISSIONS</a>
+			<ul class="submenu">
+				<li class="submenu_item"><a href="login.html">UNDERGRADUATE PROGRAMS</a></li>
+				<li class="submenu_item"><a href="#">GRADUATE/ POST GRADUATE </a></li>
+				<li class="submenu_item"><a href="#">CATEGORIES AND SEATS</a></li>
+				<li class="submenu_item"><a href="#">FEE</a></li>
+			</ul>
+		  </li>
+		  <li class="menu_item"><a href="#">ACADEMICS</a>
+			<ul class="submenu">
+				<li class="submenu_item"><a href="achead.html">ACADEMICS HEAD</a></li>
+				<li class="submenu_item"><a href="dep.html">DEPARTMENTS</a></li>
+				<li class="submenu_item"><a href="prog.html">PROGRAMS</a></li>
+				<li class="submenu_item"><a href="acsch.html">ACADEMICS SCHEDULE</a></li>
+			</ul>
+		  </li>
+		  <li class="menu_item"><a href="#">LIFE AT UET</a>
+			<ul class="submenu">
+				<li class="submenu_item"><a href="sem.html">SEMINARS</a></li>
+				<li class="submenu_item"><a href="spo.html">SPORTS</a></li>
+				<li class="submenu_item"><a href="#">ACTIVITIES</a></li>
+			</ul>
+		  </li>
+		  <li class="menu_item"><a href="transportation.html">TRANSPORT</a>
+			<ul class="submenu">
+				<li class="submenu_item"><a href="#">BUS STOP</a></li>
+				<li class="submenu_item"><a href="#">TIMING</a></li>
+			</ul>
+		  </li>
+		  <li class="menu_item"><a href="int.html">EXAMINATIONS</a>
+			<ul class="submenu">
+					<li class="submenu_item"><a href="#">INTRODUCTION</a></li>
+					<li class="submenu_item"><a href="#">CONTROL</a></li>
+					<li class="submenu_item"><a href="#">DATE SHEET</a></li>
+			</ul>
+		  </li>
+	  </ul>
+
+  
+
+  </nav>
+</div>
+
+<div>
+	<img src="UET logo.png" class="logo"> 
+	<pre class="uet" color="white">
+	   UNIVERSITY OF ENGINEERING
+	   AND TECHNOLOGY TAXILA
+	</pre>
+</div>
+
+</header>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+<div class="numbertext">1 / 3</div>
+<img src="ev11.jpg" style="width:100%">
+<div class="text">GADEC 2018</div>
+</div>
+		  
+<div class="mySlides fade">
+<div class="numbertext">2 / 3</div>
+<img src="act4.jpg" style="width:100%">
+<div class="text">FOOTBALL</div>
+</div>
+		  
+<div class="mySlides fade">
+<div class="numbertext">3 / 3</div>
+<img src="act3.jpg" style="width:100%">
+<div class="text">FOOTBALL COMPETITION</div>
+</div>
+		  
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+		  
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span> 
+<span class="dot" onclick="currentSlide(2)"></span> 
+<span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+
+
+
+<div class="rest">
+		<h1 class="heading">ACTIVITIES</h1>
+		<div class="news">
+			<div  class="news-item-china">
+				<div class="wrapper">
+				<a href="#"><img class="china" src="act5.jpg"></a>
+						<div class="overlay">
+							<div class="content">Table Tennis</div>
+						</div>
+				</div>
+				
+				
+				<h2>TABLE TENNIS</h2>
+				<p>
+				Every Sports is encouraged in<br>
+				UET TAXILA
+				
+				</p>
+				</div>	
+			
+			<!--#### article   ####-->
+			
+			<div class="news-item-library">
+				<div class="wrapper">
+					<img class="library" src="act3.jpg">
+						<div class="overlay">
+							<div class="content">Football Compitition</div>
+						</div>
+				</div>
+				
+				
+				<h2>FOOTBALL</h2>
+				<p >
+						Every Sports is encouraged in<br>
+						UET TAXILA
+				</p>
+			</div >
+			
+			<div  class="news-item-sport">
+				<div class="wrapper">
+					<img class="sport" src="sports.gif">
+						<div class="overlay">
+							<div class="content">SPORTS</div>
+						</div>
+					</div>
+				<h2>Sports week end</h2>
+				<p>
+				The sports week is now started. Students are <br> participating in different games.
+				
+				</p>
+			</div >
+			<div  class="news-item-graduates">
+				<div class="wrapper">
+					<img class="graduates" src="ev11.jpg">
+						<div class="overlay">
+								<div class="content">GADEC 2018</div>
+						</div>
+					</div>
+				
+				
+				<h2>Game Event</h2>
+				<p>
+				Even E - Sports is encouraged
+				
+				</p>
+			</div >
+			<div class="quick">
+					<h1>Quick links</h1><br>
+					<div class="list">
+						<a href="#">GADEC 2018</a><br><br><hr><br>
+						<a href="#">Football Competition</a><br><br><hr><br>
+						<a href="#">Table Tennis</a><br><br><hr><br>
+						<a href="#">Awards</a><br><br><hr><br>
+						<a href="#">Writing Competition</a><br><br><hr><br>
+						<a href="#">Bait Bazi</a><br><br><hr><br>
+						<a href="#">Spelling Bee Competition</a><br><br><hr><br>
+						<a href="#">Voice of Youth</a><br><br><hr><br>
+					</div>
+			 </div>
+		
+	</div >
+</div>	
